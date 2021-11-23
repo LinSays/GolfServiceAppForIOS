@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "611181344656",
+    "project_id": "golf-app-19th-hole",
+    "storage_bucket": "golf-app-19th-hole.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611181344656:android:47163fb28df79ee74d2515",
+        "android_client_info": {
+          "package_name": "com.hole19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611181344656-unqj9pmmoclt046sini6gb8bgqealka4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hole19",
+            "certificate_hash": "ea2d9df846c97ca2f8ab57f3c61f7d2557a0479c"
+          }
+        },
+        {
+          "client_id": "611181344656-51l2rih9k3fnpqrn780lpbrnde6klngg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlYlhurjXryZBRBmv0VM3noJ1VEuekQfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611181344656-51l2rih9k3fnpqrn780lpbrnde6klngg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "611181344656-a9t2g5acg9f22ofjpb6gtp5umrefh7lo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hole19"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

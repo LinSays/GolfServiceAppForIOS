@@ -1,0 +1,9 @@
+rootProject.name = 'hole19'
+include ':react-native-add-calendar-event'
+project(':react-native-add-calendar-event').projectDir = new File(rootProject.projectDir,   '../node_modules/react-native-add-calendar-event/android')
+include ':react-native-agora'
+project(':react-native-agora').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-agora/android')
+include ':agora-react-native-rtm'
+project(':agora-react-native-rtm').projectDir = new File(rootProject.projectDir, '../node_modules/agora-react-native-rtm/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'

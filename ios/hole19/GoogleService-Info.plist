@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>611181344656-ufaugqjiidjar1jib8p20328n4b5n2cf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.611181344656-ufaugqjiidjar1jib8p20328n4b5n2cf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAEtFzHFdFKa_Bg8H657OAd3Kx5U4qNNeM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>611181344656</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.solstice.19hole</string>
+	<key>PROJECT_ID</key>
+	<string>golf-app-19th-hole</string>
+	<key>STORAGE_BUCKET</key>
+	<string>golf-app-19th-hole.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:611181344656:ios:23137ce4cd604a3d4d2515</string>
+</dict>
+</plist>

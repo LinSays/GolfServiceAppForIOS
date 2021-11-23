@@ -1,0 +1,45 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '10.0'
+
+target 'hole19' do
+
+  config = use_native_modules!
+
+  use_react_native!(:path => config[:reactNativePath])
+
+  permissions_path = '../node_modules/react-native-permissions/ios'
+
+  pod 'Permission-LocationAccuracy', :path => "#{permissions_path}/LocationAccuracy"
+  pod 'Permission-LocationAlways', :path => "#{permissions_path}/LocationAlways"
+  pod 'Permission-LocationWhenInUse', :path => "#{permissions_path}/LocationWhenInUse"
+  pod 'Permission-MediaLibrary', :path => "#{permissions_path}/MediaLibrary"
+  pod 'Permission-Notifications', :path => "#{permissions_path}/Notifications"
+  pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
+  pod 'Permission-PhotoLibraryAddOnly', :path => "#{permissions_path}/PhotoLibraryAddOnly"
+
+  pod 'react-native-contacts', :path => '../node_modules/react-native-contacts'
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+
+  pod 'agora-react-native-rtm', :path => '../node_modules/agora-react-native-rtm'
+
+  target 'hole19Tests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable the next line.
+  # use_flipper!({ 'Flipper-Folly' => '2.3.0' })
+  # post_install do |installer|
+  #   flipper_post_install(installer)
+  # end
+
+
+
+
+end
